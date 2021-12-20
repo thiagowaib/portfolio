@@ -1,0 +1,32 @@
+.header-container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background-color: #09081f;
+    height: 10vh;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.8);
+    position:fixed;
+}
+
+.header-container ul{
+    display: flex;
+    justify-content: space-around;
+    margin: auto 30%;
+}
+
+.header-container ul li a{
+    display: inline-block;
+    font-size: 1.75em;
+    font-weight: 400;
+    color: whitesmoke;
+    text-decoration: none;
+    transition: transform .2s;
+}
+
+.header-container ul li a:hover{
+    cursor: pointer;
+    color: whitesmoke;
+    text-decoration: none;
+    transform: translateY(2px);
+    text-shadow: 0 2px 12px rgba(0, 232, 253, 0.5);
+}

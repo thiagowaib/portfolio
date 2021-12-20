@@ -1,0 +1,47 @@
+.banner-container{
+    background: radial-gradient(
+        100% 878.01% at 0% 100%, 
+        rgba(6, 11, 52, 0.75) 0%, 
+        rgba(0, 81, 102, 0.75) 100%);
+    display: flex;
+    justify-content: space-between;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.banner-title-container{
+    align-self: center;
+    padding-left: 27%;
+    /* background-color: rgba(0,0,0,.3); */
+    flex: 1;
+}
+
+.banner-title-container h1{
+    color: white;
+    font-weight: 600;
+    font-size: 3em;
+    line-height: 1.25em;
+}
+.banner-title-container h1 span{
+    color: rgba(111, 116, 255, 1);
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.banner-img-container{
+    /* background-color: rgba(0,0,0,.3); */
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.banner-img-container img{
+    height: 80%;
+
+}
+
+.banner-txt-container{
+    color: #8295C6;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: -1.75em;
+}

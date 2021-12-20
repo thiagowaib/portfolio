@@ -1,0 +1,77 @@
+.sobre-container{
+    padding-top: 20px;
+    margin: 0 17%;
+}
+
+.sobre-container::after{
+    content: '';
+    display: block;
+    width: 100%;
+    margin: 80px auto 0px auto;
+    border:1px solid #8295C640;
+}
+
+.sobre-container h2{
+    color: white;
+    font-weight: 500;
+    font-size: 3em;
+    margin: 80px 0 60px 0;
+}
+
+.sobre-container h2 span{
+    color: white;
+    font-weight: 400;
+    font-size: .5em;
+}
+
+.sobre-container p{
+    color: whitesmoke;
+    font-size: 1.35em;
+    margin-bottom: 15px;
+    line-height: 1.2em;
+}
+
+.sobre-container .pre-skill-txt{
+    color: #8295C6;
+    font-size: 1.2em;
+    margin: 50px;
+    text-align: center;
+}
+
+.skill-container{
+    display: flex;
+    margin: 50px 0;
+}
+
+.skill-container-l{
+    text-align: center;
+    width: 155px;
+}
+
+.skill-container-l img{
+    width: 60px;
+    border-radius: 10px;
+}
+
+.skill-container-r{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.skill-container-r h3{
+    color: #D5A035;
+    font-weight: 600;
+    font-size: 1.35em;
+}
+
+.skill-container-r h3 span{
+    color: #EAC05D;
+    font-weight: 500;
+    font-size: .85em;
+}
+
+.skill-container-r img{
+    max-width: 90%;
+    height: 110%;
+}

@@ -1,0 +1,99 @@
+.portfolio-container{
+    margin: 0 17%;
+    padding-top: 20px;
+}
+
+.portfolio-container h2{
+    color: white;
+    font-weight: 500;
+    font-size: 3em;
+    margin: 80px 0 60px 0;
+}
+
+.portfolio-container h2 span{
+    color: white;
+    font-weight: 400;
+    font-size: .5em;
+}
+
+.projetos-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.projeto{
+    display: block;
+    margin: 20px 0;
+    width: 30vw;
+    background-color: #090928;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(198, 248, 233, 0.3);
+}
+
+.projeto img{
+    width: 30vw;
+    object-fit: fill;
+    border-radius: 10px 10px 0 0;
+}
+
+.projeto-dados{
+    padding: 20px;
+}
+.projeto-dados h4{
+    color: white;
+    font-size: 2em;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.projeto-dados h4 span{
+    font-size: 0.75em;
+    font-weight: 400;
+}
+
+.projeto-botões{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.projeto-botões a{
+    margin-right:10px;
+    font-size: 1.3em;
+    padding: 5px 20px;
+    background: transparent;
+    color: rgba(130, 149, 198, 1);
+    border: 1px solid  rgba(130, 149, 198, 1);
+    border-radius: 30px;
+    transition: all .2s;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.projeto-botões a:hover{
+    cursor: pointer;
+    background: rgba(130, 149, 198, 1);
+    color: white;
+}
+
+.projeto-botões .link-repo{
+    border: 0;
+    border-radius: 0;
+    text-align: right;
+}
+
+.projeto-botões .link-repo img{
+    width: auto;
+    height: 1.25em;
+    vertical-align: top;
+}
+
+.projeto-botões .link-repo:hover{
+    background: inherit;
+    color: inherit;
+    transform: scale(1.1);
+}

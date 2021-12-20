@@ -1,0 +1,66 @@
+.contato-background{
+    background: linear-gradient(180deg, #070617 15.08%, #0B1039 100%);
+}
+
+.contato-container{
+    margin: 0 17%;
+}
+
+.contato-container h2{
+    color: white;
+    font-weight: 500;
+    font-size: 3em;
+    margin: 80px 0 60px 0;
+}
+
+.contato-container h2 span{
+    color: white;
+    font-weight: 400;
+    font-size: .5em;
+}
+
+.contato-container p{
+    color: whitesmoke;
+    font-size: 1.75em;
+    line-height: 1.2em;
+    font-weight: 500;
+}
+
+.contato-container p span{
+    color: rgba(75, 83, 255, 1);
+    font-weight: 600;
+
+}
+
+.contato-icons-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.contato-icon{
+    text-align: center;
+    text-decoration: none;
+    transition: all .2s;
+}
+
+.contato-icon:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.contato-icon img{
+    width: 20%;
+}
+
+.contato-icon p{
+    font-size: 1.15em;
+    text-shadow: 0px 0px 4px rgba(198, 248, 233, 0.6);
+}
+
+.footer-joke{
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+    color: #8295C6;
+}
