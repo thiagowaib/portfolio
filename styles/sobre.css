@@ -40,7 +40,8 @@
 
 .skill-container{
     display: flex;
-    margin: 50px 0;
+    margin: 50px auto;
+    justify-content: center;
 }
 
 .skill-container-l{
