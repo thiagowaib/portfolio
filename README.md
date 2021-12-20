@@ -5,4 +5,4 @@ height="40%"
 alt="Thumbnail"
 />
 
-> **Repositório do meu portfolio, disponível <a href="thiagowaib.github.io/portfolio/" target="_blank">aqui</a>.**
+> **Repositório do meu portfolio, disponível <a href="https://thiagowaib.github.io/portfolio/" target="_blank">aqui</a>.**
