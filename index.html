@@ -5,9 +5,325 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/banner.css">
+    <link rel="stylesheet" href="./styles/sobre.css">
+    <link rel="stylesheet" href="./styles/portfolio.css">
+    <link rel="stylesheet" href="./styles/contato.css">
     <title>Portfolio</title>
 </head>
 <body>
-    <h1>⚠️ Em Construção! ⚠️</h1>
+    <!-- HEADER -->
+   <header class="header-container">
+       <ul>
+           <li><a href="#">Início</a></li>
+           <li><a href="#sobre">Sobre</a></li>
+           <li><a href="#portfolio">Portfolio</a></li>
+           <li><a href="#contato">Contato</a></li>
+       </ul>
+   </header>
+
+   <!-- Banner -->
+   <section class="banner-container">
+       <div class="banner-title-container">
+            <h1>&lt<span>h1</span>&gt</h1>
+            <h1>&nbsp&nbsp&nbsp&nbspOlá!</h1>
+            <h1>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSou o <span>Thiago</span>.</h1>
+            <h1>&lt/<span>h1</span>&gt</h1>
+       </div>
+       <div class="banner-img-container">
+            <img
+            src="./assets/Banner-Image.png"
+            alt="Eu"
+            title="Thiago Waib"
+            >
+       </div>
+   </section>
+   <div class="banner-txt-container">
+        <p>Desenvolvedor & Designer Web</p>
+   </div>
+
+   <!-- Sobre -->
+   <section id="sobre" class="sobre-container">
+    <h2><span>Um pouco</span><br>&nbsp&nbsp&nbsp&nbspsobre mim</h2>
+
+    <p>
+        Me chamo Thiago Waib, sou graduando em engenharia da computação 
+        e atuo como desenvolvedor e designer web desde 2020.
+    </p>
+    <p>
+        Ao longo dessa jornada pude trabalhar com diversas pessoas e 
+        completei vários projetos, transformando em realidade as ideias 
+        de muitos clientes.
+    </p>
+    <p class="pre-skill-txt">
+        Abaixo estão minhas principais competências
+        como desenvolvedor e designer web
+    </p>
+
+    <div class="skill-container">
+        <div class="skill-container-l">
+            <img
+            src="./assets/icons/javascript.svg"
+            alt="Javascript"
+            >
+        </div>
+        <div class="skill-container-r">
+            <h3>Javascript • <span>Avançado</span></h3>
+            <img
+            src="./assets/skillbars/javascript-bar.svg"
+            alt="100%"
+            >
+        </div>
+    </div>
+    <div class="skill-container">
+        <div class="skill-container-l">
+            <img
+            src="./assets/icons/html.svg"
+            alt="HTML"
+            >
+        </div>
+        <div class="skill-container-r">
+            <h3>HTML • <span>Avançado</span></h3>
+            <img
+            src="./assets/skillbars/html-bar.svg"
+            alt="100%"
+            >
+        </div>
+    </div>
+    <div class="skill-container">
+        <div class="skill-container-l">
+            <img
+            src="./assets/icons/css.svg"
+            alt="CSS"
+            >
+        </div>
+        <div class="skill-container-r">
+            <h3>CSS • <span>Intermediário</span></h3>
+            <img
+            src="./assets/skillbars/css-bar.svg"
+            alt="75%"
+            >
+        </div>
+    </div>
+    <div class="skill-container">
+        <div class="skill-container-l">
+            <img
+            src="./assets/icons/wordpress.svg"
+            alt="Wordpress"
+            >
+        </div>
+        <div class="skill-container-r">
+            <h3>Wordpress • <span>Intermediário</span></h3>
+            <img
+            src="./assets/skillbars/wordpress-bar.svg"
+            alt="60%"
+            >
+        </div>
+    </div>
+    <div class="skill-container">
+        <div class="skill-container-l">
+            <img
+            src="./assets/icons/react.svg"
+            alt="React"
+            >
+        </div>
+        <div class="skill-container-r">
+            <h3>React Js • <span>Intermediário</span></h3>
+            <img
+            src="./assets/skillbars/react-bar.svg"
+            alt="80%"
+            >
+        </div>
+    </div>
+    <div class="skill-container">
+        <div class="skill-container-l">
+            <img
+            src="./assets/icons/figma.svg"
+            alt="Figma"
+            >
+        </div>
+        <div class="skill-container-r">
+            <h3>Figma • <span>Intermediário</span></h3>
+            <img
+            src="./assets/skillbars/figma-bar.svg"
+            alt="70%"
+            >
+        </div>
+    </div>
+   </section>
+
+   <!-- Portfolio -->
+   <section id="portfolio" class="portfolio-container">
+    <h2><span>Projetos em</span><br>&nbsp&nbsp&nbsp&nbspque trabalhei</h2>
+    <article class="projetos-container">
+        <div class="projeto">
+            <img
+            src="./assets/projetos/wallet.jpg"
+            alt="Wallet"
+            >
+            <div class="projeto-dados">
+                <h4>Wallet</h4>
+                <div class="projeto-botões">
+                    <div>
+                        <a href="https://play.google.com/store/apps/details?id=com.eduardomanfio.wallet" target="_blank">
+                            Aplicativo
+                        </a>
+                        <a href="https://walletaplicativo.com.br" target="_blank">
+                            Site
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="projeto">
+            <img
+            src="./assets/projetos/museu.jpg"
+            alt="Museu"
+            >
+            <div class="projeto-dados">
+                <h4>Museu Ilê Axé</h4>
+                <div class="projeto-botões">
+                    <div>
+                        <a href="https://museuileaxe.com.br" target="_blank">
+                            Site
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="projeto">
+            <img
+            src="./assets/projetos/duka.jpg"
+            alt="Duka"
+            >
+            <div class="projeto-dados">
+                <h4>Duka</h4>
+                <div class="projeto-botões">
+                    <div>
+                        <a href="https://appduka.netlify.com" target="_blank">
+                            Site
+                        </a>
+                    </div>
+                    <a class="link-repo" href="https://github.com/dangocan/duka" target="_blank">
+                        <img src="./assets/icons/github-round.svg" alt="Repositório" title="Repositório no Github">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="projeto">
+            <img
+            src="./assets/projetos/gasguru.jpg"
+            alt="Gas Guru"
+            >
+            <div class="projeto-dados">
+                <h4>Gas Guru</h4>
+                <div class="projeto-botões">
+                    <div>
+                        <a href="https://github.com/thiagowaib/gasguru#-onde-fazer-o-download" target="_blank">
+                            Aplicativo
+                        </a>
+                    </div>
+                    <a class="link-repo" href="https://github.com/thiagowaib/gasguru" target="_blank">
+                        <img src="./assets/icons/github-round.svg" alt="Repositório" title="Repositório no Github">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="projeto">
+            <img
+            src="./assets/projetos/codetray.jpg"
+            alt="Code Tray"
+            >
+            <div class="projeto-dados">
+                <h4>Code Tray • <span>Rocketseat</span></h4>
+                <div class="projeto-botões">
+                    <div>
+                        <a href="https://github.com/thiagowaib/code-tray#-instalação" target="_blank">
+                            Aplicativo para Windows
+                        </a>
+                    </div>
+                    <a class="link-repo" href="https://github.com/thiagowaib/code-tray" target="_blank">
+                        <img src="./assets/icons/github-round.svg" alt="Repositório" title="Repositório no Github">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="projeto">
+            <img
+            src="./assets/projetos/fairweather.jpg"
+            alt="Fairweather"
+            >
+            <div class="projeto-dados">
+                <h4>Fairweather</h4>
+                <div class="projeto-botões">
+                    <div>
+                        <a href="https://thiagowaib.github.io/FairWeather/" target="_blank">
+                            Site
+                        </a>
+                    </div>
+                    <a class="link-repo" href="https://github.com/thiagowaib/fairweather" target="_blank">
+                        <img src="./assets/icons/github-round.svg" alt="Repositório" title="Repositório no Github">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </article>
+   </section>
+
+   <!-- Contato -->
+
+   <section id="contato" class="contato-background">
+       <div class="contato-container">
+            <h2><span>Entre em</span><br>&nbsp&nbsp&nbsp&nbspcontato</h2>
+            <p>
+                Se você está interessado em 
+                <span>trazer à vida </span>
+                sua ideia para <span>site ou aplicativo web
+                </span>, entre em contato comigo<span>.</span>
+            </p>
+
+            <div class="contato-icons-container">
+
+                <a href="https://linkedin.com/in/thiagowaib" target="_blank" class="contato-icon">
+                    <img
+                    src="./assets/icons/linkedin.svg"
+                    alt="Linkedin"
+                    >
+                    <p>
+                        linkedin.com/in/thiagowaib
+                    </p>
+                </a>
+
+                <a href="mailto:thiagowaib@gmail.com" target="_blank" class="contato-icon">
+                    <img
+                    src="./assets/icons/gmail.svg"
+                    alt="Gmail"
+                    >
+                    <p>
+                        thiagowaib@gmail.com
+                    </p>
+                </a>
+
+                <a href="https://github.com/thiagowaib" target="_blank" class="contato-icon">
+                    <img
+                    src="./assets/icons/github-square.svg"
+                    alt="Github"
+                    >
+                    <p>
+                        github.com/thiagowaib
+                    </p>
+                </a>
+            </div>
+            <span class="footer-joke">Feito por... mim mesmo  :)</span>
+        </div>
+   </section>
+
 </body>
 </html>
