@@ -50,6 +50,21 @@
     text-align: center;
     margin-top: -1.75em;
 }
+@media screen and (max-width: 1024px) {
+    .banner-txt-container{
+        font-size: 1.25em;
+        margin-top: .5em;
+    }
+}
+@media screen and (max-width: 768px) {
+    .banner-title-container{
+        margin-left: 0;
+        margin-top: 15vh;
+    }
+    .banner-container{
+        flex-direction: column;
+    }
+}
 
 @media screen and (max-width: 475px){
     .banner-container{

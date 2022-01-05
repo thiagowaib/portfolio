@@ -76,9 +76,12 @@
     max-width: 90%;
     height: 110%;
 }
-
+@media screen and (max-width: 768px){
+    .sobre-container{
+        margin: 0 8%;
+    }
+}
 @media screen and (max-width: 475px){
-    
     .sobre-container::after{
         margin: 60px auto 0px auto;
     }

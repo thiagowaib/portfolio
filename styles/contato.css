@@ -81,6 +81,11 @@
         width: 10vw;
     }
 }
+@media screen and (max-width: 768px){
+    .contato-container{
+        margin: 0 8%;
+    }
+}
 @media screen and (max-width: 475px){
     .contato-container h2{
         font-size: 2em;

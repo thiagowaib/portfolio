@@ -98,7 +98,30 @@
     color: inherit;
     transform: scale(1.1);
 }
-
+@media screen and (max-width: 768px){
+    .portfolio-container{
+        margin: 0 8%;
+    }
+    .projetos-container{
+        width: 84vw;
+    }
+    .projeto{
+        margin: 15px 0;
+        width: 100%;
+        border-radius: 5px;
+        box-shadow: 0 0 8px rgba(198, 248, 233, 0.3);
+    }
+    .projeto-dados h4{
+        font-size: 1.75em;
+    }
+    .projeto img{
+        width: 100%;
+        border-radius: 5px 5px 0 0;
+    }
+    .projeto-botões a{
+        font-size: 1.5em;
+    }
+}
 @media screen and (max-width: 475px){
     .portfolio-container h2{
         font-size: 2em;
@@ -127,4 +150,5 @@
         border-radius: 20px;
         text-align: center;
     }
+    
 }
