@@ -84,6 +84,7 @@
     border: 0;
     border-radius: 0;
     text-align: right;
+    margin-right: 0;
 }
 
 .projeto-botões .link-repo img{
@@ -96,4 +97,34 @@
     background: inherit;
     color: inherit;
     transform: scale(1.1);
+}
+
+@media screen and (max-width: 475px){
+    .portfolio-container h2{
+        font-size: 2em;
+    }
+    .projeto{
+        margin: 15px 0;
+        width: 100%;
+        border-radius: 5px;
+        box-shadow: 0 0 8px rgba(198, 248, 233, 0.3);
+    }
+    .projeto img{
+        width: 100%;
+        border-radius: 5px 5px 0 0;
+    }
+    .projeto-dados h4{
+        font-size: 1.5em;
+    }
+
+    .projeto-botões a{
+        margin-right:10px;
+        font-size: .9em;
+        padding: 5px 10px;
+        background: transparent;
+        color: rgba(130, 149, 198, 1);
+        border: 1px solid  rgba(130, 149, 198, 1);
+        border-radius: 20px;
+        text-align: center;
+    }
 }

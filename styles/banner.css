@@ -4,15 +4,18 @@
         rgba(6, 11, 52, 0.75) 0%, 
         rgba(0, 81, 102, 0.75) 100%);
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 100vw;
     box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
 .banner-title-container{
+    display: flex;
+    flex-direction: column;
     align-self: center;
-    padding-left: 27%;
     /* background-color: rgba(0,0,0,.3); */
     flex: 1;
+    margin-left: 17%;
 }
 
 .banner-title-container h1{
@@ -24,8 +27,10 @@
 .banner-title-container h1 span{
     color: rgba(111, 116, 255, 1);
     font-weight: 700;
-    font-size: 48px;
+    font-size: 1em;
 }
+
+
 
 .banner-img-container{
     /* background-color: rgba(0,0,0,.3); */
@@ -44,4 +49,39 @@
     font-size: 1.5em;
     text-align: center;
     margin-top: -1.75em;
+}
+
+@media screen and (max-width: 475px){
+    .banner-container{
+        flex-direction: column;
+    }
+    .banner-title-container{
+        margin-left: 0;
+        margin-top: 15vh;
+    }
+    .banner-title-container h1{
+        color: white;
+        font-weight: 600;
+        font-size: 2em;
+        line-height: 1.35em;
+    }
+    .banner-title-container h1 span{
+        color: rgba(111, 116, 255, 1);
+        font-weight: 700;
+        font-size: 1em;
+    }
+    .banner-img-container{
+        display: flex;
+        /* background-color: #8295C640; */
+        height: 45vh;
+        max-width: 100vw;
+    }
+    .banner-img-container img{
+        align-self: flex-end;
+        height: 100%;
+    }
+    .banner-txt-container{
+        font-size: 1.25em;
+        margin-top: .5em;
+    }
 }

@@ -20,7 +20,26 @@
     font-weight: 400;
     color: whitesmoke;
     text-decoration: none;
-    transition: transform .2s;
+    transition: all .2s;
+}
+@media screen and (max-width: 1024px){
+    .header-container ul{
+        margin: auto 10%;
+    }
+    .header-container ul li a{
+        font-size: 1.75em;
+    }
+}
+@media screen and (max-width: 475px) {
+    .header-container{
+        width: 100vw;
+    }
+    .header-container ul{
+        margin: auto 5%;
+    }
+    .header-container ul li a{
+        font-size: 1.25em;
+    }
 }
 
 .header-container ul li a:hover{
